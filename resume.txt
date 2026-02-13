@@ -1,0 +1,55 @@
+HARSHAVARDHAN REDDY
+College Station, TX | Open to Relocate | +1 9794929568 | harshareddybandi63@gmail.com | LinkedIn
+EXPERIENCE
+Navodita Infotech                                                                                                                      Remote
+Cybersecurity Intern                                                                                                                     Jan 2024 – Feb 2024
+•	Conducted vulnerability assessments on simulated enterprise systems to identify security gaps and recommend remediation steps.
+•	Analyzed network traffic logs to flag unusual patterns and support early threat detection.
+•	Documented security findings and remediation steps aligned with internal standards and compliance guidelines.
+•	Collaborated with security engineers to turn technical issues into clear, actionable reports for stakeholders.
+Smart Bridge                                                                                                                               Remote
+AI Extern                                                                                                                                    May 2023 – Jul 2023
+•	Contributed to a Python-based ML application, supporting data preparation, model testing, and performance verification.
+•	Helped refine training datasets and validate outputs to improve model reliability and stability.
+•	Collaborated with a remote project team to track progress, share updates, and meet delivery milestones.
+TECHNICAL SKILLS
+Programming & Scripting: Python, Java, C, SQL, JavaScript
+Data & Analysis: Data Cleaning, Feature Engineering, Statistical Analysis, Exploratory Data Analysis
+ML & Modeling: Classification Models, Deep Learning, Model Evaluation
+Systems & Security: Network Security, Vulnerability Assessment, Secure Systems Design, Cryptographic Hashing
+Tools & Platforms: Linux, Git, GitHub, AWS (EC2, S3 – basic), OpenMP
+Python Libraries: Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow
+PROJECTS
+The Power of Data: Machine Learning in Cyber Security | Python, ML, Cybersecurity
+•	Developed a data analysis pipeline to process network traffic and behavioral data for identifying potential security threats.
+•	Performed data preprocessing, feature extraction, and exploratory analysis using Python (Pandas, NumPy, Matplotlib).
+•	Evaluated classification performance and documented patterns relevant to intrusion detection and security monitoring.
+Secure Website Authentication using BLAKE2b Algorithm | Cryptography, Secure Web Systems
+•	Implemented a secure authentication mechanism using the BLAKE2b hashing algorithm to protect user credentials.
+•	Integrated hashing into backend workflows to reduce exposure to brute-force and replay attacks.
+Deep Learning Model for Eye Disease Prediction | Deep Learning, Medical Imaging
+•	Supported development of a deep learning–based image classification model for detecting eye diseases.
+•	Assisted with data preprocessing, model training, and evaluation using Python and deep learning libraries.
+•	Publication: Included as Chapter 10 in Sensors Imaging System and Techniques (SIST-5010), CRC Press.
+Blockchain-Based Secure Data Storage and Analysis | Blockchain, Security
+•	Designed a secure data storage approach using blockchain concepts to preserve data integrity and controlled access.
+•	Documented system architecture, threat model, and implementation steps for technical review.
+Parallel Cosine Similarity for Document Search (OpenMP) | Parallel Computing, C
+•	Implemented a parallelized cosine similarity algorithm using OpenMP to accelerate large-scale document search.
+•	Improved search efficiency by 30%, reducing average query time from 8 seconds to 3 seconds.
+•	Publication: Presented in the International Research Journal of Engineering and Technology (IRJET).
+EDUCATION
+Texas A&M University                                                                                                                      College Station, TX, United States
+Master of Science in Engineering (Cyber Security & IT Systems)                                            Aug 2024 – Dec 2025
+GPA: 4.0 / 4.0
+Relevant Coursework: Data Analysis, Secure Systems Design, Networked Systems, Risk & Compliance Engineering, Applied Programming for Security
+Vellore Institute of Technology                                                                                                             Tamil Nadu, India
+Bachelor of Technology in Computer Science and Engineering                                             Jun 2020 – Jul 2023
+GPA: 7.72 / 10
+Relevant Coursework: Data Structures & Algorithms, DBMS, Machine Learning, Foundations of Cybersecurity
+CERTIFICATIONS
+Python Basics – Accenture
+Web Development – Udemy
+AWS Cloud Practitioner – Amazon
+CompTIA Security+ – Ongoing
+Microsoft Azure AZ-500 – Ongoing

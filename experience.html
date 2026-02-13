@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Harshavardhan Reddy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .timeline-item {
+            padding: var(--spacing-md);
+            border-left: 1px solid var(--border-color);
+            margin-left: 20px;
+            position: relative;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 32px;
+            width: 9px;
+            height: 9px;
+            background: var(--text-primary);
+            border-radius: 50%;
+        }
+
+        .role-title {
+            font-size: 1.5rem;
+            font-family: var(--font-heading);
+            font-weight: 700;
+        }
+
+        .role-meta {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: var(--spacing-sm);
+            font-family: var(--font-body);
+        }
+
+        .role-desc {
+            max-width: 800px;
+            font-size: 1.1rem;
+        }
+
+        .role-desc ul {
+            list-style: none;
+        }
+
+        .role-desc li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .role-desc li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Harshavardhan Reddy</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html" style="border-bottom: 2px solid var(--text-primary);">Experience</a>
+            <a href="skills.html">Skills</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section class="section" style="padding-top: var(--spacing-xl);">
+            <h1 class="hero-text fade-in-up">Professional Path</h1>
+
+            <div style="margin-top: var(--spacing-lg);">
+
+                <h2 class="section-title fade-in-up">Experience</h2>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="role-title">Cybersecurity Intern</div>
+                    <div class="role-meta">Navodita Infotech (Remote) | Mar 2024 – Apr 2024</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Assisted with vulnerability assessments on simulated enterprise systems and supported
+                                remediation tracking.</li>
+                            <li>Analyzed security events by reviewing network traffic and system activity, documenting
+                                findings for internal reports.</li>
+                            <li>Supported security monitoring activities aligned with organizational standards and
+                                compliance requirements.</li>
+                            <li>Collaborated with team members to communicate security findings and recommendations to
+                                supervisors.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="role-title">Security Analyst</div>
+                    <div class="role-meta">Captivate IT Solutions | Aug 2023 – Feb 2024</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Monitored and analyzed security alerts using SIEM tools, reviewing network traffic,
+                                system logs, and access logs via Splunk, Wireshark, and Linux to detect threats and
+                                anomalies.</li>
+                            <li>Conducted vulnerability assessments and risk analysis using tools like Nessus/Nmap,
+                                supporting remediation tracking and security documentation.</li>
+                            <li>Investigated security incidents, prepared concise incident reports, and collaborated
+                                cross-functionally to align controls with security policies, compliance standards, and
+                                best practices.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="role-title">AI Extern</div>
+                    <div class="role-meta">Smart Bridge (Remote) | May 2023 – Jul 2023</div>
+                    <div class="role-desc">
+                        <ul>
+                            <li>Supported development and testing of a Python-based application in a supervised
+                                technical environment.</li>
+                            <li>Assisted with data preparation, basic analysis, and validation of system outputs.</li>
+                            <li>Collaborated with a remote team to track progress, document results, and meet project
+                                milestones.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Harshavardhan Reddy.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
