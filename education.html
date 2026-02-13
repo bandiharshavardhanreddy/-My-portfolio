@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | Harshavardhan Reddy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .timeline-item {
+            padding: var(--spacing-md);
+            border-left: 1px solid var(--border-color);
+            margin-left: 20px;
+            position: relative;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 32px;
+            width: 9px;
+            height: 9px;
+            background: var(--text-primary);
+            border-radius: 50%;
+        }
+
+        .role-title {
+            font-size: 1.5rem;
+            font-family: var(--font-heading);
+            font-weight: 700;
+        }
+
+        .role-meta {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: var(--spacing-sm);
+            font-family: var(--font-body);
+        }
+
+        .role-desc {
+            max-width: 800px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Harshavardhan Reddy</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html" style="border-bottom: 2px solid var(--text-primary);">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="skills.html">Skills</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section class="section" style="padding-top: var(--spacing-xl);">
+            <h1 class="hero-text fade-in-up">Academic Foundation</h1>
+
+            <div style="margin-top: var(--spacing-lg);">
+
+                <h2 class="section-title fade-in-up">Education</h2>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="role-title">Master of Science in Engineering</div>
+                    <div class="role-meta">Texas A&M University | Cyber Security & IT Systems | Aug 2024 – May 2025
+                    </div>
+                    <div class="role-desc">
+                        <p><strong>GPA: 4.0 / 4.0</strong></p>
+                        <p style="margin-top: 0.5rem;">Relevant Coursework: Data Analysis, Secure Systems Design,
+                            Networked Systems, Risk & Compliance Engineering, Applied Programming for Security.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="role-title">Bachelor of Technology in CSE</div>
+                    <div class="role-meta">Vellore Institute of Technology | Jun 2020 – Jul 2023</div>
+                    <div class="role-desc">
+                        <p>GPA: 7.72 / 10</p>
+                        <p style="margin-top: 0.5rem;">Relevant Coursework: DSA, DBMS, ML, Foundations of Cyber
+                            security.</p>
+                    </div>
+                </div>
+
+                <h2 class="section-title fade-in-up" style="margin-top: var(--spacing-xl);">Certifications</h2>
+                <div class="grid-3" style="margin-bottom: var(--spacing-xl);">
+                    <div class="card">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p style="color: var(--text-secondary);">Amazon</p>
+                    </div>
+                    <div class="card">
+                        <h3>CompTIA Security+</h3>
+                        <p style="color: var(--text-secondary);">CompTIA</p>
+                    </div>
+                    <div class="card">
+                        <h3>Microsoft Azure AZ-500</h3>
+                        <p style="color: var(--text-secondary);">Microsoft</p>
+                    </div>
+                    <div class="card">
+                        <h3>Python Basics</h3>
+                        <p style="color: var(--text-secondary);">Accenture</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Harshavardhan Reddy.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
